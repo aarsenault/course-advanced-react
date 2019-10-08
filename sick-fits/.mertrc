@@ -1,0 +1,10 @@
+layout:
+  -
+    - cd /Users/holmium4/code/courses/WesBos/course-advanced-react/sick-fits/frontend
+    - cd /Users/holmium4/code/courses/WesBos/course-advanced-react/sick-fits/frontend && npm run dev
+
+  -
+    - cd /Users/holmium4/code/courses/WesBos/course-advanced-react/sick-fits/backend
+    - cd /Users/holmium4/code/courses/WesBos/course-advanced-react/sick-fits/backend && npm run dev
+  -
+    - open https://courses.wesbos.com/account/access/5bfd46ee256ae9346111fc7f/
