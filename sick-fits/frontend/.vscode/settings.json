@@ -16,6 +16,19 @@
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "peacock.color": "#FFC600"
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "peacock.color": "#FFC600",
+  // --------------------Prettier / formatter ---------------------------
+  // for wes bos eslint config check here: https://www.youtube.com/watch?v=lHAeK8t94as
+  // turn this off for javascript - will handle with Eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  // tell the Eslint plugin to run on save
+  "eslint.autoFixOnSave": true,
+  // Turn the prettier extension off for javascript if enabled for things like CSS and HTML
+  "prettier.disableLanguages": [
+    "js"
+  ],
+
 }

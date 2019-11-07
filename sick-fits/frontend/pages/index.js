@@ -2,8 +2,6 @@
 // ? wonder if it's somehow using parcel.
 // import React from 'react';
 
-import Link from 'next/link';
-
 // ? class component
 // class Home extends React.Component {
 // 	render () {
@@ -14,9 +12,6 @@ import Link from 'next/link';
 const Home = props => (
   <div>
     <p>Hey!</p>
-    <Link href="/sell">
-      <a>Sell!</a>
-    </Link>
   </div>
 );
 

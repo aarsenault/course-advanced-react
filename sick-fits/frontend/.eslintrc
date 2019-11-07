@@ -1,3 +1,4 @@
 {
+  // knows from the naming convention that it's eslint-config-wesbos
   "extends": ["wesbos"]
 }
