@@ -1,14 +1,15 @@
 import Link from 'next/link';
+import NavStyles from './styles/NavStyles';
+import { createSignalIfSupported } from 'apollo-link-http-common';
 
 const Nav = () => (
-  <div>
-    <Link href="/">
-      <a>home</a>
-    </Link>
-    <Link href="/sell">
-      <a>Sell</a>
-    </Link>
-  </div>
+  <NavStyles>
+    <Link href='items'>Items</Link>
+    <Link href='sell'>Sell</Link>
+    <Link href='signup'>Sign Up</Link>
+    <Link href='orders'>orders</Link>
+    <Link href='me'>me</Link>
+  </NavStyles>
 );
 
 export default Nav;

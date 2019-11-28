@@ -1,0 +1,9 @@
+layout:
+  -
+    - cd ./sick-fits/frontend && code .
+    - cd ./sick-fits/frontend && nvm use && npm run dev
+  -
+    - cd ./sick-fits/backend && code .
+    - cd ./sick-fits/backend && nvm use && npm run dev
+  -
+    - open https://courses.wesbos.com/account/access/5bfd46ee256ae9346111fc7f
